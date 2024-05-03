@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: gray;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    /* font-family: 'Alkatra', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 14px;
+    margin: 6px 6px;
+}
+.brand img{
+    width: 100px;
+    padding:0 8px ;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 60vh;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url(bg.jpg) ;
+    background-repeat: no-repeat;
+}
+/* .background-img{
+    width: 50%;
+} */
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+   
+    margin: 12px 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+.songItem img{
+    width: 52px;
+    margin: 23px 62px;
+    border-radius: 44px;
+}
+.timestamp{
+    margin: 0 33px;
+}
+.timestamp i{
+    
+    cursor: pointer;
+}
+.songItemContainer{
+ margin: 80px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Poppins', sans-serif;
+}
+.songInfo img{
+opacity: 5;
+transition: opacity 0.4s ease-in;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+     width: 80vw;
+     cursor: pointer;
+    
+}
